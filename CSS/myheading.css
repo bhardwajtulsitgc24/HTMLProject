@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#myheader{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+}
+.container{
+    height: auto;
+
+    text-align: center;
+
+}
+
+table{
+    border: 2px solid #000654;
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+table tr th{
+    background-color: #000654;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+table tr td{
+    height: 30px;
+}
+table tbody tr:nth-child(odd){
+    background-color: #00fabb;
+}
+
+table tbody tr:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.position{
+    text-align: center;
+}

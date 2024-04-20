@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            margin-top: 20px;
+            color: crimson;
+            border-radius: 15px;
+
+        }
+    #grad {
+            background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+            }
+
+    #Cgrad{
+        height: 500px;
+        width: 500px;
+        margin-left: 30%;
+        background-image: conic-gradient(red, yellow, green, blue, black);
+  border-radius: 50%;
+    }
+    #grad:hover{
+            opacity: 0.5;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Linear Gradient -->
+    <div style="background: linear-gradient(to top,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to bottom,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to left,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to right,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to top left,pink 10%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to top right,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to bottom left,pink 0%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to bottom right,pink 0%,yellow 30%,cyan 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div style="background: linear-gradient(to right, violet 0%,indigo 10%,blue 20%, yellow 30%,orange 40%,green 50%,red 100%);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div id="grad">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <!-- Radial Gradient -->
+    <div style="background-image: radial-gradient(red, yellow,green);">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <!-- Conic Gradient -->
+    <div style="background-image: conic-gradient(red 45deg, yellow 90deg,green 210deg );">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    <div id="Cgrad">
+        <h1>Happy Mahashivratri </h1>
+    </div>
+    
+</body>
+</html>

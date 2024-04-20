@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        #myheader{
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+            color: #fff;
+            text-transform: uppercase;
+            border-bottom: 2px solid red;
+        }
+        .container{
+            height: auto;
+            margin: 20px 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="myheader">
+        <h1>An Example of Image Map</h1>
+    </div>
+    <div class="container">
+            <h2>India Map</h2>
+            <div>
+                <img src="images/india-political-map.gif" alt="" usemap="#India">
+
+                <map name="India">
+                <area shape="circle" coords="264,97,13" href="https://leh.nic.in/" title="Leh and Ladakh">
+                <area shape="rect" coords="167,99,209,129" title="Jammu and kashmir" href="https://www.jk.gov.in/">
+                </map>
+            </div>
+    </div>
+    <div class="container">
+        <h2>workmap</h2>
+        <img src="images/workplace.jpg" alt="" usemap="#work">
+        <map name="work">
+            <area shape="rect" coords="153,53,156,337" title="laptop" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwje557vkfiEAxUkBnsHHaYCCbcYABAGGgJ0bQ&ase=2&gclid=CjwKCAjw48-vBhBbEiwAzqrZVOytZ6uXZR1B0KdwG_xuph-xd-DW079P0ykJz98grFcJeKEgGI2SkxoCoeMQAvD_BwE&ohost=www.google.com&cid=CAESV-D2BCpIMkqRjI-4wUH9_jdQ02fsvDsvVAwwU4yLwT3WvZRPLpaZSiUbvV3dWDeU4Qmn5y8bfsOfe1w-cLZYOewyviMUJI-hf0bDwIFrr-8f17IaiJtbtw&sig=AOD64_04633R_SzIisZ65fsaG7n3_ikvOw&q&nis=4&adurl&ved=2ahUKEwiYrJnvkfiEAxXTe_UHHTe1C9oQ0Qx6BAgMEAE">
+            <area shape="rect" coords="310,170,315,243" title="Mobile Phone" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiH-LzGkviEAxUQZw8CHeu-Dm0YABAjGgJ0Yg&ase=2&gclid=CjwKCAjw48-vBhBbEiwAzqrZVD-he_OOJckzlbNIMqSTXxXDRsO2jjJ9xGQp9mIfX41WmJRZ-AyoWBoCkN8QAvD_BwE&ohost=www.google.com&cid=CAESV-D2GEze-tcmlapehDounX_-_J1y_AIr8z159gYuQEyTXofLweUuH8IzJ9cJQn9BM9_GKUC58m3d1JA_Dtfn7iVrb9MNqbkl83XIDCxOJH4VI957TKa8ew&sig=AOD64_1J1eTSiFR2knKIDmMI-_6xCAXwRA&q&nis=4&adurl&ved=2ahUKEwj13bbGkviEAxWokq8BHb-AC2IQ0Qx6BAgNEAE">
+            <area shape="circle" coords="337,296,32" alt="Coffee" href="https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/">
+        </map>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
